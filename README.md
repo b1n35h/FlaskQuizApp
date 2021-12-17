@@ -8,18 +8,18 @@ To install and run this app in your system follow the following steps:
 
 - Clone the repository.
 
-'''bash
+```bash
 git clone https://github.com/b1n35h/FlaskQuizApp.git
-'''
+```
 
 - Go to the FlaskQuizApp director. And then install required packages.
 
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 - Then run the App.
 
-'''bash
+```bash
 python app.py
-'''
+```
