@@ -1,0 +1,24 @@
+{% extends "formbase.html" %}
+{% block title %}Quiz Game - Login{% endblock %}
+
+{% block content %}
+<main class="form-signin">
+	<form method="POST" action="/login">
+		<h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+		<div class="form-floating">
+			<input type="username" name="username" class="form-control" id="floatingInput" placeholder="username">
+			<label for="floatingInput">Username</label>
+		</div>
+		<div class="form-floating">
+			<input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+			<label for="floatingPassword">Password</label>
+		</div>
+
+		<a href="/register">Register account</a>
+		<button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+		<p style="color: red">{{ message }}</p>
+		<p class="mt-5 mb-3 text-muted">&copy; Game</p>
+	</form>
+</main>
+{% endblock %}
