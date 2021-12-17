@@ -18,7 +18,7 @@ git clone https://github.com/b1n35h/FlaskQuizApp.git
 pip install -r requirements.txt
 ```
 
-- Then run the App.
+## Then run the App.
 
 ```bash
 python app.py
